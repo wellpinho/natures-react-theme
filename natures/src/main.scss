@@ -1,0 +1,15 @@
+@import "./scss/abstracts/functions";
+@import "./scss/abstracts/mixins";
+@import "./scss/abstracts/variables";
+
+@import "./scss/base/base";
+@import "./scss/base/animations";
+@import "./scss/base/typography";
+@import "./scss/base/ultilities";
+@import "./scss/base/buttons";
+
+@import "./scss/base/grid";
+
+@import "./components/header/header";
+@import "./components/about/about";
+@import "./components//section-features/features-box";
