@@ -436,6 +436,10 @@ body {
   margin-top: -10rem;
 }
 
+.section-features .row {
+  max-width: 90%;
+}
+
 .section-features > * {
   -webkit-transform: skewY(7deg);
           transform: skewY(7deg);
@@ -451,6 +455,7 @@ body {
           box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
   -webkit-transition: .3s;
   transition: .3s;
+  cursor: pointer;
 }
 
 .feature-box_icon {
