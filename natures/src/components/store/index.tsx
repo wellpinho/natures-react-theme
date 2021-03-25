@@ -1,7 +1,7 @@
 import IMG1 from './../../assets/nat-8.jpg'
 import IMG2 from './../../assets/nat-9.jpg'
 
-export default function store() {
+const store: React.FC = () => {
   return (
     <section className="section-store">
       <div className="bg-video">
@@ -70,3 +70,5 @@ export default function store() {
     </section>
   )
 }
+
+export default store
