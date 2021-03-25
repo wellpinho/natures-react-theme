@@ -4,7 +4,7 @@ export default function index() {
       <div className="text-center margin-bottom-medium">
         <h2 className="heading-secondary">
           Most popular tours
-            </h2>
+        </h2>
       </div>
 
       <div className="row">

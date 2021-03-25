@@ -5,6 +5,7 @@ import Header from './components/header'
 import About from './components/about'
 import SectionFeatures from './components/section-features'
 import SectionTours from './components/section-tours'
+import Store from './components/store'
 
 const App: React.FC = () => {
   return (
@@ -14,6 +15,7 @@ const App: React.FC = () => {
         <About />
         <SectionFeatures />
         <SectionTours />
+        <Store />
       </main>
     </div>
   );
