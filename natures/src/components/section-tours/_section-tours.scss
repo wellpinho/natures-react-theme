@@ -1,12 +1,17 @@
 .section-tours {
   background-color: $lightGrey;
   padding: 25rem 0 50rem 0;
+
+  .row {
+    margin-right: 3rem important;
+  }
 }
 
 .card {
   position: relative;
   perspective: 150rem;
   height: 52rem;
+  cursor: pointer;
 
   &_side {
     height: 52rem;
@@ -87,21 +92,21 @@
       box-decoration-break: clone;
 
       &-1 {
-        background-image: linear-gradient(to right bottom, 
-          rgba($yellow-light, .85), 
-          rgba($yellow-dark, .85));
+        background-image: linear-gradient(to right bottom,
+            rgba($yellow-light, .85),
+            rgba($yellow-dark, .85));
       }
 
       &-2 {
-        background-image: linear-gradient(to right bottom, 
-          rgba($lightGreen, .85), 
-          rgba($darkGreen, .85));
+        background-image: linear-gradient(to right bottom,
+            rgba($lightGreen, .85),
+            rgba($darkGreen, .85));
       }
 
-      &-3{
-        background-image: linear-gradient(to right bottom, 
-          rgba($blue-light, .85), 
-          rgba($blue-dark, .85));
+      &-3 {
+        background-image: linear-gradient(to right bottom,
+            rgba($blue-light, .85),
+            rgba($blue-dark, .85));
       }
     }
   }
