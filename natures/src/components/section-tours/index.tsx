@@ -108,7 +108,7 @@ export default function index() {
         </div>
       </div>
 
-      <div className="text-center u-margin-top-big">
+      <div className="text-center margin-top-huge">
         <a href="#/" className="btn btn--green">Discovery all tours</a>
       </div>
     </section>
